@@ -11,7 +11,7 @@ public:
         price = Price;
     }
     
-	//Setter functions
+    //Setter methods
     void set_name(string Name) {
         name = Name;
     }
@@ -22,7 +22,7 @@ public:
         price = Price;
     }
 	
-	//Getter functions
+    //Getter methods
     float get_price() {
         return price;
     }
