@@ -33,7 +33,7 @@ public:
         return name;
     }
 	
-    void buy_items(int number) {
+    void buy_items(int number = 1) {
         quantity = quantity - number;
     }
     
@@ -82,4 +82,8 @@ int main()
 	
 	V1->stat();
 	V2->stat();
+	
+	V1->buy_items(3);
+	
+	V1->stat();
 }
